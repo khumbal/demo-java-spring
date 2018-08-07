@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
+
+
+    <bean class="com.mchange.v2.c3p0.ComboPooledDataSource"
+          id="appDataSource">
+        <property name="driverClass" value="${datasource.driverClassName}" />
+        <property name="jdbcUrl" value="${datasource.url}" />
+        <property name="user" value="${datasource.username}" />
+        <property name="password" value="${datasource.password}" />
+
+        <property name="acquireIncrement" value="1" />
+        <property name="minPoolSize" value="5" />
+        <property name="maxPoolSize" value="20" />
+        <property name="idleConnectionTestPeriod" value="300" /><!-- 5 min -->
+        <property name="maxIdleTimeExcessConnections" value="240" /><!-- 4 min -->
+        <property name="testConnectionOnCheckin" value="true" />
+        <property name="preferredTestQuery" value="select 1;" />
+    </bean>
+
+    <bean class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean"
+          id="sessionFactory">
+        <property name="dataSource" ref="appDataSource"/>
+        <property name="packagesToScan" value="net.nexsource.demo.java.spring.model"/>
+        <property name="mappingResources">
+            <list>
+                <value>net/nexsource/demo/java/spring/mode/Application.hbm.xml</value>
+            </list>
+        </property>
+        <property name="hibernateProperties" >
+            <value>
+                hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+                hibernate.show_sql=false
+                hibernate.format_sql=true
+                hibernate.hbm2ddl.auto=false
+                hibernate.jdbc.batch_size=4
+                hibernate.cache.provider_class=net.sf.ehcache.hibernate.EhCacheProvider
+                hibernate.cache.region.factory_class=net.sf.ehcache.hibernate.EhCacheRegionFactory
+                hibernate.cache.use_query_cache=false
+                hibernate.cache.use_second_level_cache=false
+                net.sf.ehcache.configurationResourceName=/ehcache_hibernate.xml
+                hibernate.connection.provider_class=org.hibernate.connection.C3P0ConnectionProvider
+            </value>
+        </property>
+    </bean>
+
+    <bean id="persistanceUtils" class="net.nexsource.demo.java.spring.dao.utils.HibernatePersistanceUtils">
+        <constructor-arg ref="sessionFactory" />
+        <property name="attachStrategy"><value>update</value></property>
+    </bean>
+
+    <!--  services transaction config -->
+    <bean id="txManager"
+          class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory" />
+        <property name="nestedTransactionAllowed" value="true"/>
+    </bean>
+    <tx:annotation-driven transaction-manager="txManager" />
+
+
+</beans>
