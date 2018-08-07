@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c9d004f-c7e8-4e7a-a1c7-f56845dce596" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DEMO_Project.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jsf-api.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jsf-impl.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jstl-1.1.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-aop-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-aspects-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-beans-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-context-support-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-expression-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-instrument-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-jdbc-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-jms-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-messaging-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-orm-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-oxm-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-test-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/spring-tx-4.3.18.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/HelloWorld.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/controller/HomeController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/controller/UserController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/dao/CommonEntityDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/dao/UserDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/dao/impl/UserDaoImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/dao/utils/Hibernate3Dao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/dao/utils/HibernatePersistanceUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/dao/utils/PersistanceUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/model/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/model/base/BaseEntity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/service/UserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/service/impl/UserServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/ehcache_hibernate.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/net/nexsource/demo/java/spring/mode/Application.hbm.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/conf/commons/applicationContext.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/conf/commons/common.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/conf/commons/dao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/test.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -126,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -521,16 +468,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533541809387</updated>
-      <workItem from="1533541831203" duration="30473000" />
+      <workItem from="1533541831203" duration="30642000" />
     </task>
+    <task id="LOCAL-00001" summary="add project">
+      <created>1533641720104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533641720104</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add project">
+      <created>1533641764029</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533641764029</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30473000" />
+    <option name="totallyTimeSpent" value="30642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-742" width="1049" height="1655" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -539,6 +500,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24974722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994656" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -547,9 +509,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299933" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299933" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299933" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27906978" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -560,8 +523,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,6 +530,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -914,10 +879,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DEMO_Project.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
