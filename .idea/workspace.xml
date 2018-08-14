@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c9d004f-c7e8-4e7a-a1c7-f56845dce596" name="Default" comment="fix auto join on submit">
+    <list default="true" id="0c9d004f-c7e8-4e7a-a1c7-f56845dce596" name="Default" comment="rename class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,32 +40,32 @@
         <counts>
           <entry key="dummy" value="5" />
           <entry key="java" value="482" />
-          <entry key="jsp" value="34" />
-          <entry key="txt" value="25" />
+          <entry key="jsp" value="37" />
+          <entry key="txt" value="37" />
           <entry key="xml" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="482" />
-          <entry key="JSP" value="34" />
-          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="JSP" value="37" />
+          <entry key="PLAIN_TEXT" value="42" />
           <entry key="XML" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="9" />
-          <entry key="java" value="38" />
-          <entry key="jsp" value="1" />
+          <entry key="java" value="39" />
+          <entry key="jsp" value="2" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="9" />
-          <entry key="JAVA" value="38" />
-          <entry key="JSP" value="1" />
+          <entry key="JAVA" value="39" />
+          <entry key="JSP" value="2" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -81,11 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/controller/UserController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/converter/Id2BaseEntityConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            <state relative-caret-position="612">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -158,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/service/CountryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/converter/RoleToUserProfileConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/converter/IdToEntityConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/model/User.java" />
@@ -168,6 +177,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/conf/commons/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/converter/CustomConverterFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/converter/Id2EntityConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/converter/Id2BaseEntityConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" />
       </list>
     </option>
   </component>
@@ -411,7 +422,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533905126250" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534229443597" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -542,7 +553,7 @@
       <updated>1533541809387</updated>
       <workItem from="1533541831203" duration="32020000" />
       <workItem from="1533895481403" duration="7816000" />
-      <workItem from="1534228216027" duration="694000" />
+      <workItem from="1534228216027" duration="1179000" />
     </task>
     <task id="LOCAL-00001" summary="add project">
       <created>1533641720104</created>
@@ -572,17 +583,24 @@
       <option name="project" value="LOCAL" />
       <updated>1534228902092</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="rename class">
+      <created>1534229064056</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534229064056</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40530000" />
+    <option name="totallyTimeSpent" value="41015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-742" width="1049" height="1655" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2851365" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2851365" />
       <window_info id="Structure" order="1" weight="0.24974722" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -593,7 +611,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32932532" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39893264" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39893264" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -601,7 +619,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299933" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32955304" />
+      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32955304" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -618,6 +636,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -625,7 +669,8 @@
     <MESSAGE value="add project" />
     <MESSAGE value="update project" />
     <MESSAGE value="fix auto join on submit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix auto join on submit" />
+    <MESSAGE value="rename class" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -887,13 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="46" column="102" selection-start-line="46" selection-start-column="102" selection-end-line="46" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -963,17 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/converter/Id2EntityConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding>
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/conf/commons/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -985,6 +1012,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/converter/Id2BaseEntityConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
         </state>
       </provider>
     </entry>

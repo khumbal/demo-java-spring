@@ -44,7 +44,7 @@
                 </tr>
                 <tr>
                     <td><f:label path="country">Country</f:label></td>
-                    <td><f:select path="country" items="${countryList}" itemValue="id" itemLabel="name"/></td>
+                    <td><f:select path="country.id" items="${countryList}" itemValue="id" itemLabel="name"/></td>
                 </tr>
                 <tr>
                     <td align="right"><button type="submit" name="method" value="register">Submit</button></td>
