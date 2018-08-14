@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 /**
  * A converter class used in views to map id's to actual Entity objects.
  */
-public class Id2EntityConverter implements ConverterFactory<String, BaseEntity> {
+public class Id2BaseEntityConverter implements ConverterFactory<String, BaseEntity> {
 
     public <T extends BaseEntity> Converter<String, T> getConverter(Class<T> targetType) {
         return new StringToBaseEntityConverter<T>(targetType);

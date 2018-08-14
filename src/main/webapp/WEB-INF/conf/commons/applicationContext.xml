@@ -39,7 +39,7 @@
     <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
         <property name="converters">
             <list>
-                <bean class="net.nexsource.demo.java.spring.converter.Id2EntityConverter" />
+                <bean class="net.nexsource.demo.java.spring.converter.Id2BaseEntityConverter" />
             </list>
         </property>
     </bean>
