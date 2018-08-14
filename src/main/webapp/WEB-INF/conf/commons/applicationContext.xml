@@ -44,9 +44,6 @@
         </property>
     </bean>
 
-    <bean id="defaultServletHttpRequestHandler" class="org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler" />
-    <bean class="org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter" />
-
     <context:annotation-config />
     <context:component-scan base-package="net.nexsource.demo.java.spring" />
 

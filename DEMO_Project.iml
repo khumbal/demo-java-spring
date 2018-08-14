@@ -56,9 +56,6 @@
     <orderEntry type="library" name="Maven: com.sun.faces:jsf-api:2.1.13" level="project" />
     <orderEntry type="library" name="Maven: com.sun.faces:jsf-impl:2.1.13" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:jstl:1.2" level="project" />
-    <orderEntry type="library" name="Maven: javax.servlet.jsp:jsp-api:2.1" level="project" />
-    <orderEntry type="library" name="Maven: org.glassfish.web:el-impl:2.2" level="project" />
-    <orderEntry type="library" name="Maven: javax.el:el-api:2.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.myfaces.core:myfaces-impl:2.3.1" level="project" />
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.3" level="project" />
     <orderEntry type="library" name="Maven: commons-digester:commons-digester:1.8" level="project" />
