@@ -40,7 +40,11 @@
                 </tr>
                 <tr>
                     <td><f:label path="password">Password</f:label></td>
-                    <td><f:input path="password"/></td>
+                    <td><f:input path="password" /></td>
+                </tr>
+                <tr>
+                    <td><f:label path="country">Country</f:label></td>
+                    <td><f:select path="country" items="${countryList}" itemValue="id" itemLabel="name"/></td>
                 </tr>
                 <tr>
                     <td align="right"><button type="submit" name="method" value="register">Submit</button></td>
@@ -56,6 +60,7 @@
                     <td><c:out value="${user.id}"  /></td>
                     <td><c:out value="${user.name}"  /></td>
                     <td><c:out value="${user.email}"  /></td>
+                    <td><c:out value="${user.country}"  /></td>
                 </tr>
             </c:forEach>
         </table>

@@ -9,6 +9,14 @@
         </id>
         <property length="255" name="name" type="string" />
         <property length="255" name="email" type="string" />
+        <many-to-one name="country" class="Country"/>
+    </class>
+
+    <class name="Country" table="country">
+        <id access="field" name="id" type="java.lang.Long">
+            <generator class="native" />
+        </id>
+        <property length="255" name="name" type="string" />
     </class>
 
 </hibernate-mapping>

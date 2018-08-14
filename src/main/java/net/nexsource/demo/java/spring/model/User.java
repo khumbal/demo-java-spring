@@ -23,6 +23,8 @@ public class User extends BaseEntity {
 	// form:input - password
 	String confirmPassword;
 
+	Country country;
+
 	//Check if this is for New of Update
 	public boolean isNew() {
 		return (this.getId() == null);
@@ -68,12 +70,21 @@ public class User extends BaseEntity {
 		this.confirmPassword = confirmPassword;
 	}
 
+	public Country getCountry() {
+		return country;
+	}
+
+	public void setCountry(Country country) {
+		this.country = country;
+	}
+
 	@Override
 	public String toString() {
 		return "User{" +
 				"id=" + getId() +
 				", name='" + name + '\'' +
 				", email='" + email + '\'' +
+				", country='" + country + '\'' +
 				'}';
 	}
 }

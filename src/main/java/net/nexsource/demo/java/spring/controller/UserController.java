@@ -1,5 +1,7 @@
 package net.nexsource.demo.java.spring.controller;
 
+import net.nexsource.demo.java.spring.dao.CountryDao;
+import net.nexsource.demo.java.spring.model.Country;
 import net.nexsource.demo.java.spring.model.User;
 import net.nexsource.demo.java.spring.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +22,9 @@ public class UserController {
 
     @Autowired
     UserService userService;
+
+    @Autowired
+    CountryDao countryDao;
 
 	@RequestMapping(value = "/register", method = RequestMethod.GET)
 	public String register(Model model) {
@@ -46,6 +51,11 @@ public class UserController {
 
 
         return "register";
+    }
+
+    @ModelAttribute("countryList")
+    public List<Country> countryList(){
+	    return countryDao.findAll();
     }
 
 }
