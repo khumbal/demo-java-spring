@@ -16,12 +16,24 @@ CREATE DATABASE IF NOT EXISTS `demoproject` DEFAULT CHARACTER SET utf8;
 
 USE `demoproject`;
 
-/*Table structure for table `user` */
+/*Table structure for table `country` */
+CREATE TABLE `country` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
+/*Data for the table `country` */
+INSERT  INTO `country`(`id`,`name`) VALUES 
+(1,'Thai'),
+(2,'Eng');
+
+/*Table structure for table `user` */
 CREATE TABLE `user` (
   `id` BIGINT(20) NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(255) DEFAULT NULL,
+  `name` VARCHAR(255) NOT NULL,
   `email` VARCHAR(255) DEFAULT NULL,
+  `country` INT(11) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=INNODB DEFAULT CHARSET=utf8;
+) AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 ```

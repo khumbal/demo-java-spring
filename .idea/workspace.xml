@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c9d004f-c7e8-4e7a-a1c7-f56845dce596" name="Default" comment="rename class">
+    <list default="true" id="0c9d004f-c7e8-4e7a-a1c7-f56845dce596" name="Default" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,7 +41,8 @@
           <entry key="dummy" value="5" />
           <entry key="java" value="482" />
           <entry key="jsp" value="37" />
-          <entry key="txt" value="37" />
+          <entry key="md" value="1" />
+          <entry key="txt" value="40" />
           <entry key="xml" value="81" />
         </counts>
       </usages-collector>
@@ -49,7 +50,8 @@
         <counts>
           <entry key="JAVA" value="482" />
           <entry key="JSP" value="37" />
-          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="45" />
           <entry key="XML" value="81" />
         </counts>
       </usages-collector>
@@ -58,6 +60,7 @@
           <entry key="class" value="9" />
           <entry key="java" value="39" />
           <entry key="jsp" value="2" />
+          <entry key="md" value="1" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
@@ -66,6 +69,7 @@
           <entry key="CLASS" value="9" />
           <entry key="JAVA" value="39" />
           <entry key="JSP" value="2" />
+          <entry key="Markdown" value="1" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -91,11 +95,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+            <state relative-caret-position="779">
+              <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="663">
+                <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -179,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/converter/Id2EntityConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/converter/Id2BaseEntityConverter.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -422,7 +439,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534229443597" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534229672511" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -553,7 +570,7 @@
       <updated>1533541809387</updated>
       <workItem from="1533541831203" duration="32020000" />
       <workItem from="1533895481403" duration="7816000" />
-      <workItem from="1534228216027" duration="1179000" />
+      <workItem from="1534228216027" duration="1432000" />
     </task>
     <task id="LOCAL-00001" summary="add project">
       <created>1533641720104</created>
@@ -590,11 +607,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534229064056</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix">
+      <created>1534229465403</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534229465403</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41015000" />
+    <option name="totallyTimeSpent" value="41268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-742" width="1049" height="1655" extended-state="0" />
@@ -670,7 +694,8 @@
     <MESSAGE value="update project" />
     <MESSAGE value="fix auto join on submit" />
     <MESSAGE value="rename class" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename class" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -685,9 +710,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-aop/2.0.8/spring-aop-2.0.8.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/xxxx.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml.xhtml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/net/nexsource/demo/java/spring/HelloWorld.java">
@@ -1024,8 +1046,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+        <state relative-caret-position="779">
+          <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="663">
+            <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
