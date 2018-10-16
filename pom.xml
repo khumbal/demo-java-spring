@@ -282,8 +282,8 @@
             <version>2.4</version>
             <type>jar</type>
             <scope>compile</scope>
+            <classifier>jdk15</classifier>
         </dependency>
-
 
         <!-- Log -->
         <dependency>
@@ -297,8 +297,6 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.14</version>
-            <type>jar</type>
-            <scope>compile</scope>
         </dependency>
 
     </dependencies>
@@ -316,6 +314,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.1</version>
                 <configuration>
                     <skip>true</skip>
                 </configuration>
