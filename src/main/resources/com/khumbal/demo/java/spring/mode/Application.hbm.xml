@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="net.nexsource.demo.java.spring.model">
+
+    <class name="com.khumbal.demo.java.spring.model.User" table="user">
+        <id access="field" name="id" type="java.lang.Long">
+            <generator class="native" />
+        </id>
+        <property length="255" name="name" type="string" />
+        <property length="255" name="email" type="string" />
+        <many-to-one name="country" class="com.khumbal.demo.java.spring.model.Country"/>
+    </class>
+
+    <class name="com.khumbal.demo.java.spring.model.Country" table="country">
+        <id access="field" name="id" type="java.lang.Long">
+            <generator class="native" />
+        </id>
+        <property length="255" name="name" type="string" />
+    </class>
+
+</hibernate-mapping>

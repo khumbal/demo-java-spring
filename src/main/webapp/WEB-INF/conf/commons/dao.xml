@@ -30,7 +30,7 @@
         <property name="packagesToScan" value="net.nexsource.demo.java.spring.model"/>
         <property name="mappingResources">
             <list>
-                <value>net/nexsource/demo/java/spring/mode/Application.hbm.xml</value>
+                <value>com/khumbal/demo/java/spring/mode/Application.hbm.xml</value>
             </list>
         </property>
         <property name="hibernateProperties" >
@@ -50,7 +50,7 @@
         </property>
     </bean>
 
-    <bean id="persistanceUtils" class="net.nexsource.demo.java.spring.dao.utils.HibernatePersistanceUtils">
+    <bean id="persistanceUtils" class="com.khumbal.demo.java.spring.dao.utils.HibernatePersistanceUtils">
         <constructor-arg ref="sessionFactory" />
         <property name="attachStrategy"><value>update</value></property>
     </bean>
