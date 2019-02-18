@@ -45,7 +45,7 @@
     </bean>
 
     <context:annotation-config />
-    <context:component-scan base-package="net.nexsource.demo.java.spring" />
+    <context:component-scan base-package="com.khumbal.demo.java.spring" />
 
     <mvc:resources mapping="/static/**" location="/resources/" />
 

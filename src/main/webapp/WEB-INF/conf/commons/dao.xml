@@ -27,7 +27,7 @@
     <bean class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean"
           id="sessionFactory">
         <property name="dataSource" ref="appDataSource"/>
-        <property name="packagesToScan" value="net.nexsource.demo.java.spring.model"/>
+        <property name="packagesToScan" value="com.khumbal.demo.java.spring.model"/>
         <property name="mappingResources">
             <list>
                 <value>com/khumbal/demo/java/spring/mode/Application.hbm.xml</value>
